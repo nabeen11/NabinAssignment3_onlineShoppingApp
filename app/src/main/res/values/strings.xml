@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignmnet3</string>
+    <string name="tab_text_1">Login</string>
+    <string name="tab_text_2">Register</string>
+    <string name="Username">Register</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="loginbtn">Login</string>
+    <string name="regbtn">Register</string>
+</resources>
