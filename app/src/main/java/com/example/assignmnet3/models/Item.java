@@ -7,9 +7,9 @@ public class Item {
 
     public Item(String itemName, String itemDescription, String imageName, String itemPrice, int imgId) {
         this.itemName = itemName;
+        this.itemPrice = itemPrice;
         this.itemDescription = itemDescription;
         this.imageName = imageName;
-        this.itemPrice = itemPrice;
         this.imgId = imgId;
     }
 

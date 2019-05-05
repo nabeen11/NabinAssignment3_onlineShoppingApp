@@ -29,6 +29,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Item's Description"
+        android:id="@+id/description"
+        android:layout_toEndOf="@+id/imgview"
+        android:layout_below="@id/price"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imgview" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="Item's Price"
         android:id="@+id/price"
         android:layout_toEndOf="@+id/imgview"
@@ -37,16 +48,7 @@
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@+id/imgview" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Item's Description"
-        android:id="@+id/description"
-        android:layout_toEndOf="@+id/imgview"
-        android:layout_below="@id/price"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@+id/imgview" />
+
 
 </RelativeLayout>
 

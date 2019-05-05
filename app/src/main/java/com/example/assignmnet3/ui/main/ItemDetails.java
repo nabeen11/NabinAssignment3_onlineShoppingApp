@@ -18,8 +18,8 @@ public class ItemDetails extends AppCompatActivity {
         setContentView(R.layout.nabinitem_details);
 
         name = findViewById(R.id.detailName);
-        description = findViewById(R.id.detailDescription);
-        price = findViewById(R.id.detailPrice);
+        price = findViewById(R.id.detailDescription);
+        description = findViewById(R.id.detailPrice);
         circleImageView = findViewById(R.id.detailImgView);
 
         Bundle bundle = getIntent().getExtras();
